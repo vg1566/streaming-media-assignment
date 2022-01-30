@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming basic video and audio",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./ --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vg1566/streaming-media-assignment.git"
+  },
+  "author": "VGZ",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/vg1566/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/vg1566/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
